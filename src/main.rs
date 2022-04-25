@@ -1,8 +1,8 @@
-use std::process;
 use fictional_guide::account::AccountsRepository;
 use fictional_guide::engine::Engine;
 use fictional_guide::parser::Parser;
 use fictional_guide::transaction::TransactionLedger;
+use std::process;
 
 fn main() {
     let mut args = std::env::args();
