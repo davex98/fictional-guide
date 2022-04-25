@@ -1,0 +1,6 @@
+type,       client, tx, amount
+deposit,    2,      12, 1.77
+dispute,    2,      12
+deposit,    2,      13, 1.77
+deposit,    2,      14, 1.77
+dispute,    2,      12
