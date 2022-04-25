@@ -1,8 +1,8 @@
 use std::process;
-use transaction_engine::account::AccountsRepository;
-use transaction_engine::engine::Engine;
-use transaction_engine::parser::Parser;
-use transaction_engine::transaction::TransactionLedger;
+use fictional_guide::account::AccountsRepository;
+use fictional_guide::engine::Engine;
+use fictional_guide::parser::Parser;
+use fictional_guide::transaction::TransactionLedger;
 
 fn main() {
     let mut args = std::env::args();
